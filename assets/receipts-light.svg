@@ -8,5 +8,5 @@
 <text x="32" y="216" fill="#6E737C" font-family="'Geist',ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="10.5">Left number is scraped anonymously from the public contributions page.</text>
 <text x="32" y="234" fill="#6E737C" font-family="'Geist',ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="10.5">Right number comes from the authenticated search API, which can see private repos.</text>
 <text x="32" y="254" fill="#C2C5CA" font-family="'Geist',ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif" font-size="10.5">Same year. Same person. Two sources, on purpose.</text>
-<g><rect x="20" y="6" width="840" height="22" rx="6" fill="none" stroke="#C92A3B" stroke-width="0.8" opacity="0.7"/><text x="32" y="21" fill="#C92A3B" font-family="'Geist Mono',ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="10" letter-spacing="0.06em">STALE — shipped:no_api_key</text></g>
+<g><rect x="20" y="6" width="840" height="22" rx="6" fill="none" stroke="#C92A3B" stroke-width="0.8" opacity="0.7"/><text x="32" y="21" fill="#C92A3B" font-family="'Geist Mono',ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="10" letter-spacing="0.06em">STALE — authored:no_token  shipped:no_api_key</text></g>
 </svg>

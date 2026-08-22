@@ -1,7 +1,9 @@
 {
-  "generatedAt": "2026-08-22T19:48:41.268Z",
+  "generatedAt": "2026-08-22T19:53:10.710Z",
   "ok": false,
   "failedSources": [
+    "authored",
+    "ships",
     "graph",
     "shipped30d"
   ],
@@ -10,7 +12,7 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-22T19:48:36.212Z",
+      "fetchedAt": "2026-08-22T19:53:10.437Z",
       "data": {
         "total": 231,
         "activeDays": 28,
@@ -18,10 +20,11 @@
       }
     },
     "authored": {
-      "ok": true,
-      "stale": false,
-      "reason": null,
+      "ok": false,
+      "stale": true,
+      "reason": "no_token",
       "fetchedAt": "2026-08-22T19:48:37.443Z",
+      "staleSince": "2026-08-22T19:53:10.708Z",
       "data": {
         "name": "Nischay B K",
         "joined": "2024-03-20T07:19:22Z",
@@ -31,10 +34,11 @@
       }
     },
     "ships": {
-      "ok": true,
-      "stale": false,
-      "reason": null,
+      "ok": false,
+      "stale": true,
+      "reason": "no_token",
       "fetchedAt": "2026-08-22T19:48:38.517Z",
+      "staleSince": "2026-08-22T19:53:10.709Z",
       "data": [
         {
           "number": 58,

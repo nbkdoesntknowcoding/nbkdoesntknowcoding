@@ -20,14 +20,33 @@ ask.mjs ◄── issue titled `ask|<slug>` ─────────┘
 | `PROFILE_GH_TOKEN` | Classic PAT, `repo` scope | The search API only counts private-repo PRs for a token that can see them. Without it the receipts panel shows the public number twice. |
 | `MNEMA_API_KEY` | A `mnema_api_…` key | Bearer auth for the MCP endpoint. |
 
-### Minting the Mnema key — two things will silently break it
+### Minting the Mnema key
 
-1. **It must not be an act-as key.** An act-as key resolves the caller from an
-   `X-Mnema-Act-As-Email` header and, with no meeting in scope, roster validation denies
-   the request. The symptom is not an error — it is a successful call that returns nothing.
-2. **Scope it to a project, not the workspace.** `api_keys.project_id` hard-bounds every
-   query the key can make. Pointing it at a public project means a bug in the disclosure
-   allowlist still cannot reach a private one. Defence in depth, and it costs nothing.
+Mint it at **/app/settings/api-keys** with scope **`read`**. None of the five questions call
+a tool that gates on `workspace:write`, and `read` already expands to `docs:read`, so `read`
+is both sufficient and minimal.
+
+**Do not give it a project.** That is the opposite of the usual advice, so here is the
+reason. `api_keys.project_id` sets `effectiveProjectScope` for the whole session, and three
+of the five questions need to see across projects: `what_shipped` reads the Mnema project,
+`list_projects` enumerates them, and `what-am-i-building` filters that list down to the
+public ones. A key bound to one project answers those three with an empty result — which
+this repo would honestly report as empty, and which would be useless.
+
+The boundary is therefore not the key. It is:
+
+1. the question registry — five fixed tool calls, no free text; and
+2. the formatters in `questions.mjs`, which decide what of each result is printed.
+   `what_shipped` deliberately prints counts, types and cost but never a PR title.
+
+A workspace-wide key is safe here *because* nothing can ask it an arbitrary question. If you
+ever add a question that returns raw content, revisit this.
+
+**Act-as is already handled.** `api_keys.act_as_user` defaults to `false`, so a key minted
+through the UI is non-act-as. Do not hand this workflow a meeting-bot key: an act-as key
+resolves its caller from `X-Mnema-Act-As-Email`, and with no meeting in scope roster
+validation denies it. The symptom is not an error — it is a successful call returning
+nothing.
 
 ## Running it locally
 
@@ -64,6 +83,7 @@ stranger can ask is exactly the set of things committed to this repo.
 |---|---|
 | Panels render but a red `STALE` band names `no_api_key` | `MNEMA_API_KEY` is unset in Actions secrets. |
 | `STALE — …:unauthorized` | Key revoked, or it is an act-as key. See above. |
+| `STALE — …:no_token` | `PROFILE_GH_TOKEN` is unset. The workflow does not fall back to the Actions `GITHUB_TOKEN`, because that token cannot see private repos and would quietly halve the receipts number. |
 | Receipts shows the same number in both bars | `PROFILE_GH_TOKEN` is missing, so the search API cannot see private repos. |
 | `contrib_parse_failed` | GitHub changed the contributions page markup. The scraper is intentionally strict — it throws rather than reporting zero. |
 | Images look stale on github.com | Camo caches by URL. `render.mjs` stamps a content hash into each `?v=`, so a changed SVG always gets a URL camo has not seen. |

@@ -1,0 +1,432 @@
+{
+  "generatedAt": "2026-08-22T19:53:10.710Z",
+  "ok": false,
+  "failedSources": [
+    "authored",
+    "ships",
+    "graph",
+    "shipped30d"
+  ],
+  "sources": {
+    "publicGraph": {
+      "ok": true,
+      "stale": false,
+      "reason": null,
+      "fetchedAt": "2026-08-22T19:53:10.437Z",
+      "data": {
+        "total": 231,
+        "activeDays": 28,
+        "daysInWindow": 376
+      }
+    },
+    "authored": {
+      "ok": false,
+      "stale": true,
+      "reason": "no_token",
+      "fetchedAt": "2026-08-22T19:48:37.443Z",
+      "staleSince": "2026-08-22T19:53:10.708Z",
+      "data": {
+        "name": "Nischay B K",
+        "joined": "2024-03-20T07:19:22Z",
+        "prsAllTime": 569,
+        "prsMerged": 559,
+        "prsThisYear": 569
+      }
+    },
+    "ships": {
+      "ok": false,
+      "stale": true,
+      "reason": "no_token",
+      "fetchedAt": "2026-08-22T19:48:38.517Z",
+      "staleSince": "2026-08-22T19:53:10.709Z",
+      "data": [
+        {
+          "number": 58,
+          "title": "feat: where the milliseconds actually go",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/58",
+          "mergedAt": "2026-08-22T19:20:41Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-22T19:16:23Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-22T19:15:22Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": 56,
+          "title": "perf(mac): the low-latency encoder was never asked for",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/56",
+          "mergedAt": "2026-08-22T18:46:48Z",
+          "type": "perf",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-22T18:37:04Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": 54,
+          "title": "fix: the send path promised to shed frames and did the opposite",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/54",
+          "mergedAt": "2026-08-22T09:48:24Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": 52,
+          "title": "fix(mac): a live fps change put the deep capture queue back",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/52",
+          "mergedAt": "2026-08-22T07:16:54Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": 50,
+          "title": "fix(mac): a copy that updated itself never looked again",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/50",
+          "mergedAt": "2026-08-21T13:42:51Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": 48,
+          "title": "test: check the two things that only break in front of users",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/48",
+          "mergedAt": "2026-08-21T13:04:42Z",
+          "type": "test",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": 46,
+          "title": "feat: say it in words a user can act on",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/46",
+          "mergedAt": "2026-08-21T12:30:35Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": 44,
+          "title": "feat(win): the receiver becomes a window instead of a card on a void",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/44",
+          "mergedAt": "2026-08-21T07:54:58Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-21T07:27:52Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": 42,
+          "title": "feat(mac): the popover leads with what is happening",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/42",
+          "mergedAt": "2026-08-21T07:19:24Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": 40,
+          "title": "feat: one button, one input, in both apps",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/40",
+          "mergedAt": "2026-08-21T06:30:56Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": 38,
+          "title": "feat: the states that are not the happy path",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/38",
+          "mergedAt": "2026-08-20T19:23:05Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": 36,
+          "title": "feat(mac): a status line that tells the truth about the session",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/36",
+          "mergedAt": "2026-08-20T17:55:09Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": 34,
+          "title": "fix(release): never publish an updater manifest that loops",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/34",
+          "mergedAt": "2026-08-20T17:26:11Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": 31,
+          "title": "feat(design): design tokens, brand mark, humanised errors, device-as-hero",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/31",
+          "mergedAt": "2026-08-20T17:02:38Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": 30,
+          "title": "fix(windows): bracket IPv6 and prefer IPv4, so the URL parses at all",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/30",
+          "mergedAt": "2026-08-20T14:05:37Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": 28,
+          "title": "fix(windows): make the update path survive a broken release",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/28",
+          "mergedAt": "2026-08-20T12:47:47Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": 26,
+          "title": "fix: check for updates while running, not only at launch",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/26",
+          "mergedAt": "2026-08-20T09:32:32Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": 24,
+          "title": "fix(windows): repair the startup crash that killed the whole receiver",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/24",
+          "mergedAt": "2026-08-20T07:11:03Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": 22,
+          "title": "feat: add the settings, connection and accessibility the app never had",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/22",
+          "mergedAt": "2026-08-20T06:40:04Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": 20,
+          "title": "Phase 10: cut the latency, name the link, and rebuild both interfaces",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/20",
+          "mergedAt": "2026-08-20T06:00:53Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": 18,
+          "title": "perf: measure the latency, then remove the delay that was measurable",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/18",
+          "mergedAt": "2026-08-19T17:48:14Z",
+          "type": "perf",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": 16,
+          "title": "fix(windows): show the version, and delete the duplicated share button",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/16",
+          "mergedAt": "2026-08-19T09:19:48Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": 14,
+          "title": "fix(mac): read GitHub's compare direction the right way round",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/14",
+          "mergedAt": "2026-08-19T08:46:42Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": 12,
+          "title": "fix(release): point latest.json at the asset GitHub actually created",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/12",
+          "mergedAt": "2026-08-19T08:17:37Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": 10,
+          "title": "feat(mac): let the Mac update itself too",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/10",
+          "mergedAt": "2026-08-19T07:41:12Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": 8,
+          "title": "Phase 8 + 9 complete: recover v0.5.0's missing work, auto-update, interfaces, installers, and control of Windows",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/8",
+          "mergedAt": "2026-08-19T07:13:27Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-19T07:10:16Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-19T06:44:27Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": 6,
+          "title": "feat(mac): view and decode a Windows desktop in the Mac app (Task 8.2)",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/6",
+          "mergedAt": "2026-08-18T15:04:44Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": 4,
+          "title": "feat(windows): capture, encode and serve the Windows desktop (Task 8.1)",
+          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/4",
+          "mergedAt": "2026-08-18T12:54:40Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/display-share"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-18T07:01:17Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-18T06:34:29Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-18T06:34:04Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-17T09:07:45Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-17T06:18:12Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-17T05:56:58Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        }
+      ]
+    },
+    "graph": {
+      "ok": false,
+      "stale": true,
+      "reason": "no_api_key",
+      "fetchedAt": "2026-08-22T19:22:00.825Z",
+      "staleSince": "2026-08-22T19:41:10.345Z",
+      "data": {
+        "nodes": 59266,
+        "edges": 218031,
+        "communities": 15700,
+        "godNodes": 20,
+        "builtAt": "2026-08-22T19:22:00.825Z"
+      }
+    },
+    "shipped30d": {
+      "ok": false,
+      "stale": true,
+      "reason": "no_api_key",
+      "fetchedAt": "2026-08-22T19:28:57.065Z",
+      "staleSince": "2026-08-22T19:41:10.345Z",
+      "data": {
+        "merged": 51,
+        "taskLinked": 30,
+        "costUsd": 307.758605
+      }
+    }
+  }
+}

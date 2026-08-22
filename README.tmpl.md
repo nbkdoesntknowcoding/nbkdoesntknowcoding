@@ -1,7 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/hero-dark.svg?v=b43a52ee74">
-  <img alt="A live constellation drawn from the knowledge graph behind this profile" src="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/hero-light.svg?v=970046e4ec">
-</picture>
+{{HERO_IMG}}
 
 I'm **Nischay** — founder at [The Boring People](https://theboringpeople.in), building
 [**Mnema**](https://github.com/nbkdoesntknowcoding/mnema), a context engine that publishes a team's
@@ -13,13 +10,10 @@ This page is generated. Every number on it is fetched, dated, and allowed to fai
 
 ---
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/receipts-dark.svg?v=17aa0192ae">
-  <img alt="Public contribution count versus pull requests actually merged" src="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/receipts-light.svg?v=6eec38dcda">
-</picture>
+{{RECEIPTS_IMG}}
 
-A logged-out visitor sees **231 contributions** across **28 active days**.
-In the same year I opened **569 pull requests**, and **559** of them are merged.
+A logged-out visitor sees **{{PUBLIC_SHOWN}} contributions** across **{{ACTIVE_DAYS}} active days**.
+In the same year I opened **{{PRS_YEAR}} pull requests**, and **{{PRS_MERGED}}** of them are merged.
 Both numbers are real. They just come from different places, and only one of them is on my profile by
 default. None of this is solo work either — `project-x` has a human collaborator and a very busy
 dependabot, so every count here is scoped to PRs I actually authored.
@@ -34,14 +28,10 @@ knowledge graph my agents query — there is no cached copy, and no human in the
 
 | Question | What answers it |
 |---|---|
-| [**Who am I, according to my own knowledge graph?**](https://github.com/nbkdoesntknowcoding/nbkdoesntknowcoding/issues/new?title=ask%7Cwho-is-this&body=Leave%20this%20body%20as-is%20and%20submit.%0A%0AOnly%20the%20issue%20title%20is%20read%2C%20and%20only%20against%20an%20allowlist%20of%20question%20slugs.%0ANothing%20you%20type%20here%20is%20sent%20to%20the%20knowledge%20graph.%0A&labels=ask) | Answered by Mnema’s `whoami`, not by me typing a bio. |
-| [**How big is the knowledge graph behind this profile?**](https://github.com/nbkdoesntknowcoding/nbkdoesntknowcoding/issues/new?title=ask%7Cgraph-size&body=Leave%20this%20body%20as-is%20and%20submit.%0A%0AOnly%20the%20issue%20title%20is%20read%2C%20and%20only%20against%20an%20allowlist%20of%20question%20slugs.%0ANothing%20you%20type%20here%20is%20sent%20to%20the%20knowledge%20graph.%0A&labels=ask) | Live node / edge / community counts from the running graph. |
-| [**What shipped in the last 7 days?**](https://github.com/nbkdoesntknowcoding/nbkdoesntknowcoding/issues/new?title=ask%7Cwhat-shipped&body=Leave%20this%20body%20as-is%20and%20submit.%0A%0AOnly%20the%20issue%20title%20is%20read%2C%20and%20only%20against%20an%20allowlist%20of%20question%20slugs.%0ANothing%20you%20type%20here%20is%20sent%20to%20the%20knowledge%20graph.%0A&labels=ask) | Merged PRs joined to the tasks they closed — by branch name. |
-| [**What am I actually building right now?**](https://github.com/nbkdoesntknowcoding/nbkdoesntknowcoding/issues/new?title=ask%7Cwhat-am-i-building&body=Leave%20this%20body%20as-is%20and%20submit.%0A%0AOnly%20the%20issue%20title%20is%20read%2C%20and%20only%20against%20an%20allowlist%20of%20question%20slugs.%0ANothing%20you%20type%20here%20is%20sent%20to%20the%20knowledge%20graph.%0A&labels=ask) | Public projects and their live board counts. |
-| [**What does running an agent fleet actually cost?**](https://github.com/nbkdoesntknowcoding/nbkdoesntknowcoding/issues/new?title=ask%7Cwhat-did-it-cost&body=Leave%20this%20body%20as-is%20and%20submit.%0A%0AOnly%20the%20issue%20title%20is%20read%2C%20and%20only%20against%20an%20allowlist%20of%20question%20slugs.%0ANothing%20you%20type%20here%20is%20sent%20to%20the%20knowledge%20graph.%0A&labels=ask) | Real metered spend, because I built the meter. |
+{{ASK_TABLE}}
 
 <sub>**Why this is safe to leave open.** The issue title is matched against
-`^ask\|[a-z0-9-]+$` and then against an allowlist of 5 slugs defined in
+`^ask\|[a-z0-9-]+$` and then against an allowlist of {{QUESTION_COUNT}} slugs defined in
 [`scripts/lib/questions.mjs`](scripts/lib/questions.mjs). Each slug names a fixed tool call.
 The issue body is never read. There is no free-text path from an issue into the graph, which means
 there is no prompt to inject into and no way to enumerate the workspace. Disclosure is capped again
@@ -50,7 +40,7 @@ titles. Three questions per person per day.</sub>
 
 ### Recently asked
 
-_Nobody has asked yet. The links above are live — the first one to click becomes the first entry._
+{{LATEST_ANSWERS}}
 
 Full history: [**ASKED.md**](ASKED.md)
 
@@ -77,10 +67,7 @@ Self-host the whole thing instead: [**nbkdoesntknowcoding/mnema**](https://githu
 
 ---
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/shiplog-dark.svg?v=c5ddbff3a5">
-  <img alt="The most recent merged pull requests and the tasks they closed" src="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/shiplog-light.svg?v=71c3c01121">
-</picture>
+{{SHIPLOG_IMG}}
 
 The `TASK` column isn't decoration. Branches are named `t-<n>-<slug>`, and that string is the only
 thing binding a task to the PR that closed it — from it, the board moves on its own. It's the piece
@@ -118,6 +105,6 @@ the reason code, not a confident-looking zero.
 
 ---
 
-<sub>`refreshed 2026-08-22 19:48 UTC · ⚠ stale sources: graph, shipped30d` · built by [`scripts/collect.mjs`](scripts/collect.mjs) →
+<sub>{{STATUS}} · built by [`scripts/collect.mjs`](scripts/collect.mjs) →
 [`scripts/render.mjs`](scripts/render.mjs), on a cron and on every answered question ·
 [how it works](SETUP.md) · [nischaybk@theboringpeople.in](mailto:nischaybk@theboringpeople.in)</sub>

@@ -1,0 +1,57 @@
+name: refresh profile
+
+on:
+  schedule:
+    - cron: '30 1 * * *'   # 07:00 IST
+  workflow_dispatch:
+  push:
+    paths:
+      - 'README.tmpl.md'
+      - 'scripts/**'
+      - '.github/workflows/refresh.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-write
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # collect may fail a source; the page must still render, marked stale,
+      # and the job must still end red. So: record the outcome, do not mask it.
+      - id: collect
+        continue-on-error: true
+        env:
+          MNEMA_API_KEY: ${{ secrets.MNEMA_API_KEY }}
+          PROFILE_GH_TOKEN: ${{ secrets.PROFILE_GH_TOKEN }}
+        run: node scripts/collect.mjs
+
+      - run: node scripts/render.mjs
+
+      - name: commit if changed
+        run: |
+          git config user.name  'profile-bot'
+          git config user.email 'noreply@github.com'
+          git add -A README.md ASKED.md assets data
+          if git diff --cached --quiet; then
+            echo 'no change'
+            exit 0
+          fi
+          git commit -m 'chore(profile): refresh generated page'
+          git push
+
+      - name: fail if a source was stale
+        if: steps.collect.outcome == 'failure'
+        run: |
+          echo '::error::at least one data source failed; the page rendered with a STALE band'
+          exit 1

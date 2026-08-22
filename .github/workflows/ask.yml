@@ -1,0 +1,69 @@
+name: answer a question
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: profile-write
+  cancel-in-progress: false
+
+jobs:
+  answer:
+    if: github.event.issue.user.type != 'Bot'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # Issue fields go in through env, never through run: interpolation —
+      # a title is attacker-controlled and must not be able to reach the shell.
+      - id: ask
+        continue-on-error: true
+        env:
+          MNEMA_API_KEY: ${{ secrets.MNEMA_API_KEY }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: node scripts/ask.mjs
+
+      - id: status
+        run: echo "value=$(cat .ask-status 2>/dev/null || echo failed)" >> "$GITHUB_OUTPUT"
+
+      - name: re-render the page
+        if: steps.status.outputs.value == 'answered'
+        run: node scripts/render.mjs
+
+      - name: commit the answer
+        if: steps.status.outputs.value == 'answered'
+        run: |
+          git config user.name  'profile-bot'
+          git config user.email 'noreply@github.com'
+          git add -A README.md ASKED.md data
+          if git diff --cached --quiet; then
+            echo 'no change'
+            exit 0
+          fi
+          git commit -m "chore(profile): answer #${{ github.event.issue.number }}"
+          git push
+
+      - name: reply and close
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NUMBER: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$NUMBER" --body-file .ask-reply.md
+          gh issue close "$NUMBER"
+
+      - name: fail if the graph did not answer
+        if: steps.status.outputs.value == 'failed'
+        run: |
+          echo '::error::the question was valid but Mnema did not answer'
+          exit 1

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T19:57:06.052Z",
+  "generatedAt": "2026-08-23T02:41:49.666Z",
   "ok": false,
   "failedSources": [
     "authored",
@@ -12,11 +12,11 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-22T19:57:05.570Z",
+      "fetchedAt": "2026-08-23T02:41:49.123Z",
       "data": {
-        "total": 231,
+        "total": 238,
         "activeDays": 28,
-        "daysInWindow": 376
+        "daysInWindow": 370
       }
     },
     "authored": {

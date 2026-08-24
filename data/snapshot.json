@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T06:25:59.782Z",
+  "generatedAt": "2026-08-24T12:17:29.537Z",
   "ok": true,
   "failedSources": [],
   "sources": {
@@ -7,9 +7,9 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-24T06:25:51.972Z",
+      "fetchedAt": "2026-08-24T12:17:22.873Z",
       "data": {
-        "total": 240,
+        "total": 241,
         "activeDays": 29,
         "daysInWindow": 371
       }
@@ -18,20 +18,20 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-24T06:25:52.923Z",
+      "fetchedAt": "2026-08-24T12:17:23.493Z",
       "data": {
         "name": "Nischay B K",
         "joined": "2024-03-20T07:19:22Z",
-        "prsAllTime": 571,
+        "prsAllTime": 572,
         "prsMerged": 561,
-        "prsThisYear": 571
+        "prsThisYear": 572
       }
     },
     "ships": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-24T06:25:53.550Z",
+      "fetchedAt": "2026-08-24T12:17:24.074Z",
       "data": [
         {
           "number": null,
@@ -399,20 +399,20 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-24T06:25:54.228Z",
+      "fetchedAt": "2026-08-24T12:17:24.715Z",
       "data": {
         "nodes": 59409,
         "edges": 219308,
         "communities": 15700,
         "godNodes": 20,
-        "builtAt": "2026-08-24T04:19:35.041Z"
+        "builtAt": "2026-08-24T09:29:00.029Z"
       }
     },
     "shipped30d": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-24T06:25:58.756Z",
+      "fetchedAt": "2026-08-24T12:17:28.536Z",
       "data": {
         "merged": 50,
         "taskLinked": 25,

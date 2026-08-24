@@ -129,8 +129,13 @@ const main = async () => {
 
   const log = (asked.answers ?? []).slice().reverse().map((a) => {
     const q = QUESTIONS.find((x) => x.slug === a.slug);
+    // A workflow_dispatch run has no issue behind it and records number 0.
+    // Linking that produced a dead /issues/0 in the public log.
+    const origin = a.issue > 0
+      ? `[#${a.issue}](https://github.com/${REPO}/issues/${a.issue})`
+      : 'run manually';
     return `### ${q?.question ?? a.slug}\n\n`
-      + `Asked by [@${a.by}](https://github.com/${a.by}) · ${a.at.slice(0, 16).replace('T', ' ')} UTC · [#${a.issue}](https://github.com/${REPO}/issues/${a.issue})\n\n`
+      + `Asked by [@${a.by}](https://github.com/${a.by}) · ${a.at.slice(0, 16).replace('T', ' ')} UTC · ${origin}\n\n`
       + `${a.answer}\n`;
   }).join('\n---\n\n');
 

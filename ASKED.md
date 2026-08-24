@@ -5,7 +5,7 @@ Answers are point-in-time — the graph moves.
 
 ### How big is the knowledge graph behind this profile?
 
-Asked by [@nbkdoesntknowcoding](https://github.com/nbkdoesntknowcoding) · 2026-08-24 12:19 UTC · [#0](https://github.com/nbkdoesntknowcoding/nbkdoesntknowcoding/issues/0)
+Asked by [@nbkdoesntknowcoding](https://github.com/nbkdoesntknowcoding) · 2026-08-24 12:19 UTC · run manually
 
 | | |
 |---|--:|

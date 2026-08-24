@@ -51,6 +51,16 @@ titles. Three questions per person per day.</sub>
 ### Recently asked
 
 <details>
+<summary><b>Who am I, according to my own knowledge graph?</b> — asked by @nbkdoesntknowcoding on 2026-08-24</summary>
+
+{"content":"You are Nischay B K, Founder & CEO, on the Leadership team, in Leadership. As a workspace owner, you have full access to everything in the workspace.","structuredContent":{"identified":true,"name":"Nischay B K","email":"nischaybk@theboringpeople.in","title":"Founder & CEO","role":"Founder & CEO","role_slug":"founder-ceo","team":"Leadership","department":"Leadership","workspace_role":"owner"}}
+
+That line is not written into this README. It is resolved at answer time from the
+org chart inside Mnema, through the same MCP tool any connected agent would call.
+
+</details>
+
+<details>
 <summary><b>How big is the knowledge graph behind this profile?</b> — asked by @nbkdoesntknowcoding on 2026-08-24</summary>
 
 | | |

@@ -6,6 +6,13 @@
       "issue": 0,
       "at": "2026-08-24T12:19:26.258Z",
       "answer": "| | |\n|---|--:|\n| Nodes | 59,409 |\n| Edges | 219,308 |\n| Communities | 15,700 |\n| God-nodes | 20 |\n\nLast rebuilt `2026-08-24T09:29:00.029Z`."
+    },
+    {
+      "slug": "who-is-this",
+      "by": "nbkdoesntknowcoding",
+      "issue": 9,
+      "at": "2026-08-24T12:39:34.422Z",
+      "answer": "{\"content\":\"You are Nischay B K, Founder & CEO, on the Leadership team, in Leadership. As a workspace owner, you have full access to everything in the workspace.\",\"structuredContent\":{\"identified\":true,\"name\":\"Nischay B K\",\"email\":\"nischaybk@theboringpeople.in\",\"title\":\"Founder & CEO\",\"role\":\"Founder & CEO\",\"role_slug\":\"founder-ceo\",\"team\":\"Leadership\",\"department\":\"Leadership\",\"workspace_role\":\"owner\"}}\n\nThat line is not written into this README. It is resolved at answer time from the\norg chart inside Mnema, through the same MCP tool any connected agent would call."
     }
   ]
 }

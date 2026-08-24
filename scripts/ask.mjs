@@ -78,8 +78,14 @@ const main = async () => {
   try {
     answer = await q.answer();
   } catch (err) {
+    // Print the full message. A bare reason code with the detail stripped is
+    // half a log — the first failure of this kind reported `missing_fields`
+    // and nothing in the run said which fields, or what shape came back.
+    console.error(`ask: ${slug} failed — ${err.message}`);
     return finish('failed', [
       `The knowledge graph did not answer: \`${err.reason ?? 'unknown'}\`.`,
+      '',
+      `Detail: \`${(err.message ?? '').slice(0, 300)}\``,
       '',
       'Reported as a failure rather than as an empty result. The workflow run is red and I will see it.',
     ].join('\n'));

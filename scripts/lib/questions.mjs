@@ -39,10 +39,13 @@ export const QUESTIONS = [
     async answer() {
       const r = await callTool('whoami');
       // Prefer the structured fields; fall back to the tool's own prose, which
-      // is accurate and readable, when the server does not emit them.
-      if (r.name === undefined && typeof r.text === 'string' && r.text.trim()) {
+      // is accurate and readable, when the server does not emit them. The
+      // prose is always present as _text, including when structuredContent
+      // came back but without the fields this formatter needs.
+      const prose = (r._text ?? r.text ?? '').trim();
+      if (r.name === undefined && prose) {
         return [
-          r.text.trim(),
+          prose,
           '',
           'That line is not written into this README. It is resolved at answer time from the',
           'org chart inside Mnema, through the same MCP tool any connected agent would call.',

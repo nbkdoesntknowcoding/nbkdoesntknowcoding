@@ -14,12 +14,12 @@ This page is generated. Every number on it is fetched, dated, and allowed to fai
 ---
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/receipts-dark.svg?v=bfa0ce96a8">
-  <img alt="Public contribution count versus pull requests actually merged" src="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/receipts-light.svg?v=8f255296fe">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/receipts-dark.svg?v=34b083ecef">
+  <img alt="Public contribution count versus pull requests actually merged" src="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/receipts-light.svg?v=b79d036202">
 </picture>
 
 A logged-out visitor sees **241 contributions** across **29 active days**.
-In the same year I opened **573 pull requests**, and **563** of them are merged.
+In the same year I opened **574 pull requests**, and **563** of them are merged.
 Both numbers are real. They just come from different places, and only one of them is on my profile by
 default. None of this is solo work either — `project-x` has a human collaborator and a very busy
 dependabot, so every count here is scoped to PRs I actually authored.
@@ -49,16 +49,6 @@ in [`scripts/lib/policy.mjs`](scripts/lib/policy.mjs): private repos surface cou
 titles. Three questions per person per day.</sub>
 
 ### Recently asked
-
-<details>
-<summary><b>Who am I, according to my own knowledge graph?</b> — asked by @nbkdoesntknowcoding on 2026-08-24</summary>
-
-**undefined** — undefined, undefined team.
-
-That line is not written into this README. It is resolved at answer time from the
-org chart inside Mnema, through the same MCP tool any connected agent would call.
-
-</details>
 
 <details>
 <summary><b>How big is the knowledge graph behind this profile?</b> — asked by @nbkdoesntknowcoding on 2026-08-24</summary>
@@ -140,6 +130,6 @@ the reason code, not a confident-looking zero.
 
 ---
 
-<sub>`refreshed 2026-08-24 12:22 UTC · all sources live` · built by [`scripts/collect.mjs`](scripts/collect.mjs) →
+<sub>`refreshed 2026-08-24 12:26 UTC · all sources live` · built by [`scripts/collect.mjs`](scripts/collect.mjs) →
 [`scripts/render.mjs`](scripts/render.mjs), on a cron and on every answered question ·
 [how it works](SETUP.md) · [nischaybk@theboringpeople.in](mailto:nischaybk@theboringpeople.in)</sub>

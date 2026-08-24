@@ -8,8 +8,25 @@
  * workspace with. Adding a question is a commit, reviewable like any other.
  */
 
-import { callTool } from './mnema.mjs';
+import { callTool, MnemaError } from './mnema.mjs';
 import { publicProject } from './policy.mjs';
+
+/**
+ * Assert that a tool actually returned the fields a formatter is about to
+ * print. Without this a missing field renders the string "undefined" onto a
+ * public page and the run stays green — a wrong answer is worse than no answer.
+ *
+ * This is not hypothetical. `whoami` shipped reading r.name/r.title/r.team; the
+ * deployed server returns no structuredContent for it, the client fell back to
+ * {text}, and the profile published "undefined — undefined, undefined team."
+ */
+function need(result, fields, tool) {
+  const missing = fields.filter((f) => result?.[f] === undefined || result?.[f] === null);
+  if (missing.length > 0) {
+    throw new MnemaError('missing_fields', `${tool} returned no ${missing.join(', ')}`);
+  }
+  return result;
+}
 
 const usd = (n) => `$${Number(n ?? 0).toFixed(2)}`;
 const n = (x) => Number(x ?? 0).toLocaleString('en-US');
@@ -21,6 +38,17 @@ export const QUESTIONS = [
     blurb: 'Answered by Mnema’s `whoami`, not by me typing a bio.',
     async answer() {
       const r = await callTool('whoami');
+      // Prefer the structured fields; fall back to the tool's own prose, which
+      // is accurate and readable, when the server does not emit them.
+      if (r.name === undefined && typeof r.text === 'string' && r.text.trim()) {
+        return [
+          r.text.trim(),
+          '',
+          'That line is not written into this README. It is resolved at answer time from the',
+          'org chart inside Mnema, through the same MCP tool any connected agent would call.',
+        ].join('\n');
+      }
+      need(r, ['name', 'title', 'team'], 'whoami');
       return [
         `**${r.name}** — ${r.title}, ${r.team} team.`,
         '',
@@ -36,6 +64,7 @@ export const QUESTIONS = [
     blurb: 'Live node / edge / community counts from the running graph.',
     async answer() {
       const r = await callTool('get_graph_report');
+      need(r, ['totalNodes', 'totalEdges', 'totalCommunities', 'godNodeCount'], 'get_graph_report');
       return [
         `| | |`,
         `|---|--:|`,
@@ -55,7 +84,8 @@ export const QUESTIONS = [
     blurb: 'Merged PRs joined to the tasks they closed — by branch name.',
     async answer() {
       const r = await callTool('what_shipped', { project: 'mnema', since: '7d' });
-      const prs = r.mergedPrs ?? [];
+      need(r, ['mergedPrs'], 'what_shipped');
+      const prs = r.mergedPrs;
       if (prs.length === 0) {
         return 'Nothing merged in that window. Reported as zero rather than rounded up.';
       }
@@ -86,7 +116,8 @@ export const QUESTIONS = [
     blurb: 'Public projects and their live board counts.',
     async answer() {
       const r = await callTool('list_projects', { status: 'active' });
-      const rows = (r.projects ?? [])
+      need(r, ['projects'], 'list_projects');
+      const rows = r.projects
         .filter((p) => publicProject(p.slug))
         .map((p) => {
           const c = p.taskCounts ?? {};
@@ -108,7 +139,8 @@ export const QUESTIONS = [
     blurb: 'Real metered spend, because I built the meter.',
     async answer() {
       const r = await callTool('what_shipped', { project: 'mnema', since: '30d' });
-      const prs = r.mergedPrs ?? [];
+      need(r, ['mergedPrs', 'estCostUsd'], 'what_shipped');
+      const prs = r.mergedPrs;
       const cost = Number(r.estCostUsd ?? 0);
       const per = prs.length > 0 ? cost / prs.length : 0;
       return [

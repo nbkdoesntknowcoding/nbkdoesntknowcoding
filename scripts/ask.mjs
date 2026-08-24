@@ -89,6 +89,21 @@ const main = async () => {
     return finish('failed', 'The tool returned an empty answer. Reported as failed rather than rendered as blank.');
   }
 
+  // Last line of defence before something reaches a public page. A formatter
+  // reading a field the tool did not return renders the literal string
+  // "undefined" and stays green, which is the one failure this repo argues
+  // against. Per-formatter assertions in questions.mjs catch it first; this
+  // catches whatever those miss.
+  if (/\bundefined\b|\bNaN\b|\[object Object\]/.test(answer)) {
+    return finish('failed', [
+      'The answer came back malformed and was not published.',
+      '',
+      'A formatter printed `undefined`, `NaN`, or `[object Object]`, which means a tool',
+      'returned a different shape than the formatter expects. Refusing to publish a',
+      'confident-looking wrong answer. The run is red and I will see it.',
+    ].join('\n'));
+  }
+
   asked.answers.push({ slug, by: AUTHOR, issue: NUMBER, at: new Date().toISOString(), answer });
   asked.answers = asked.answers.slice(-KEEP);
   await writeFile(url('data/asked.json'), `${JSON.stringify(asked, null, 2)}\n`);

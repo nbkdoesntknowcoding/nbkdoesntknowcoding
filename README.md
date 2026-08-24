@@ -51,6 +51,16 @@ titles. Three questions per person per day.</sub>
 ### Recently asked
 
 <details>
+<summary><b>Who am I, according to my own knowledge graph?</b> — asked by @nbkdoesntknowcoding on 2026-08-24</summary>
+
+**undefined** — undefined, undefined team.
+
+That line is not written into this README. It is resolved at answer time from the
+org chart inside Mnema, through the same MCP tool any connected agent would call.
+
+</details>
+
+<details>
 <summary><b>How big is the knowledge graph behind this profile?</b> — asked by @nbkdoesntknowcoding on 2026-08-24</summary>
 
 | | |

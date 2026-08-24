@@ -95,14 +95,30 @@ export async function callTool(name, args = {}) {
     throw new MnemaError('tool_error', `${name}: ${detail}`);
   }
 
-  // Prefer the machine-readable payload; fall back to the text block.
-  if (result?.structuredContent) return result.structuredContent;
+  // Always carry the prose block alongside the structured payload as `_text`.
+  //
+  // This used to return one or the other. When a server emitted
+  // structuredContent that was missing the fields a formatter wanted, the
+  // prose — which usually says the right thing in a sentence — had already
+  // been thrown away, so the fallback was unreachable and the formatter
+  // printed undefined. Keep both and let the caller decide.
   const text = result?.content?.find((c) => c.type === 'text')?.text;
+
+  if (result?.structuredContent) {
+    return text === undefined
+      ? result.structuredContent
+      : { ...result.structuredContent, _text: text };
+  }
+
   if (text === undefined) throw new MnemaError('empty_tool_result', name);
+
   try {
-    return JSON.parse(text);
+    const parsed = JSON.parse(text);
+    return (parsed && typeof parsed === 'object' && !Array.isArray(parsed))
+      ? { ...parsed, _text: text }
+      : { value: parsed, _text: text };
   } catch {
-    return { text };
+    return { _text: text, text };
   }
 }
 

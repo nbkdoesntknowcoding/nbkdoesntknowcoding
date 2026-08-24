@@ -50,7 +50,19 @@ titles. Three questions per person per day.</sub>
 
 ### Recently asked
 
-_Nobody has asked yet. The links above are live — the first one to click becomes the first entry._
+<details>
+<summary><b>How big is the knowledge graph behind this profile?</b> — asked by @nbkdoesntknowcoding on 2026-08-24</summary>
+
+| | |
+|---|--:|
+| Nodes | 59,409 |
+| Edges | 219,308 |
+| Communities | 15,700 |
+| God-nodes | 20 |
+
+Last rebuilt `2026-08-24T09:29:00.029Z`.
+
+</details>
 
 Full history: [**ASKED.md**](ASKED.md)
 

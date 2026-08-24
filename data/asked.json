@@ -1,1 +1,11 @@
-{"answers":[]}
+{
+  "answers": [
+    {
+      "slug": "graph-size",
+      "by": "nbkdoesntknowcoding",
+      "issue": 0,
+      "at": "2026-08-24T12:19:26.258Z",
+      "answer": "| | |\n|---|--:|\n| Nodes | 59,409 |\n| Edges | 219,308 |\n| Communities | 15,700 |\n| God-nodes | 20 |\n\nLast rebuilt `2026-08-24T09:29:00.029Z`."
+    }
+  ]
+}

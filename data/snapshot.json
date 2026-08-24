@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T12:26:38.340Z",
+  "generatedAt": "2026-08-24T12:27:08.746Z",
   "ok": true,
   "failedSources": [],
   "sources": {
@@ -7,7 +7,7 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-24T12:26:33.430Z",
+      "fetchedAt": "2026-08-24T12:26:59.787Z",
       "data": {
         "total": 241,
         "activeDays": 29,
@@ -18,12 +18,12 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-24T12:26:33.900Z",
+      "fetchedAt": "2026-08-24T12:27:00.337Z",
       "data": {
         "name": "Nischay B K",
         "joined": "2024-03-20T07:19:22Z",
         "prsAllTime": 574,
-        "prsMerged": 563,
+        "prsMerged": 564,
         "prsThisYear": 574
       }
     },
@@ -31,8 +31,17 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-24T12:26:34.500Z",
+      "fetchedAt": "2026-08-24T12:27:01.023Z",
       "data": [
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-24T12:26:51Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/nbkdoesntknowcoding"
+        },
         {
           "number": null,
           "title": null,
@@ -383,15 +392,6 @@
           "type": "fix",
           "task": null,
           "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-08-18T06:34:29Z",
-          "type": "fix",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
         }
       ]
     },
@@ -399,7 +399,7 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-24T12:26:35.017Z",
+      "fetchedAt": "2026-08-24T12:27:01.764Z",
       "data": {
         "nodes": 59409,
         "edges": 219308,
@@ -412,7 +412,7 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-24T12:26:38.045Z",
+      "fetchedAt": "2026-08-24T12:27:07.721Z",
       "data": {
         "merged": 50,
         "taskLinked": 25,

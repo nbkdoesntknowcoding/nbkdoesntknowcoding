@@ -41,7 +41,7 @@ knowledge graph my agents query — there is no cached copy, and no human in the
 | [**What does running an agent fleet actually cost?**](https://github.com/nbkdoesntknowcoding/nbkdoesntknowcoding/issues/new?title=ask%7Cwhat-did-it-cost&body=Leave%20this%20body%20as-is%20and%20submit.%0A%0AOnly%20the%20issue%20title%20is%20read%2C%20and%20only%20against%20an%20allowlist%20of%20question%20slugs.%0ANothing%20you%20type%20here%20is%20sent%20to%20the%20knowledge%20graph.%0A&labels=ask) | Real metered spend, because I built the meter. |
 
 <sub>**Why this is safe to leave open.** The issue title is matched against
-`^ask\|[a-z0-9-]+$` and then against an allowlist of 5 slugs defined in
+`^ask|[a-z0-9-]+$` and then against an allowlist of 5 slugs defined in
 [`scripts/lib/questions.mjs`](scripts/lib/questions.mjs). Each slug names a fixed tool call.
 The issue body is never read. There is no free-text path from an issue into the graph, which means
 there is no prompt to inject into and no way to enumerate the workspace. Disclosure is capped again

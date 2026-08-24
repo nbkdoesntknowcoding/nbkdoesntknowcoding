@@ -31,7 +31,7 @@ knowledge graph my agents query — there is no cached copy, and no human in the
 {{ASK_TABLE}}
 
 <sub>**Why this is safe to leave open.** The issue title is matched against
-`^ask\|[a-z0-9-]+$` and then against an allowlist of {{QUESTION_COUNT}} slugs defined in
+`^ask|[a-z0-9-]+$` and then against an allowlist of {{QUESTION_COUNT}} slugs defined in
 [`scripts/lib/questions.mjs`](scripts/lib/questions.mjs). Each slug names a fixed tool call.
 The issue body is never read. There is no free-text path from an issue into the graph, which means
 there is no prompt to inject into and no way to enumerate the workspace. Disclosure is capped again

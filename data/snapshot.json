@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T12:33:59.127Z",
+  "generatedAt": "2026-08-25T02:36:19.628Z",
   "ok": true,
   "failedSources": [],
   "sources": {
@@ -7,32 +7,50 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-24T12:33:53.328Z",
+      "fetchedAt": "2026-08-25T02:36:10.171Z",
       "data": {
-        "total": 241,
+        "total": 256,
         "activeDays": 29,
-        "daysInWindow": 371
+        "daysInWindow": 372
       }
     },
     "authored": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-24T12:33:53.746Z",
+      "fetchedAt": "2026-08-25T02:36:10.797Z",
       "data": {
         "name": "Nischay B K",
         "joined": "2024-03-20T07:19:22Z",
-        "prsAllTime": 575,
-        "prsMerged": 565,
-        "prsThisYear": 575
+        "prsAllTime": 577,
+        "prsMerged": 567,
+        "prsThisYear": 577
       }
     },
     "ships": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-24T12:33:54.410Z",
+      "fetchedAt": "2026-08-25T02:36:11.340Z",
       "data": [
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-24T13:12:35Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-24T12:42:25Z",
+          "type": "test",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
         {
           "number": null,
           "title": null,
@@ -374,24 +392,6 @@
           "type": "feat",
           "task": null,
           "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": 6,
-          "title": "feat(mac): view and decode a Windows desktop in the Mac app (Task 8.2)",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/6",
-          "mergedAt": "2026-08-18T15:04:44Z",
-          "type": "feat",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
-        },
-        {
-          "number": 4,
-          "title": "feat(windows): capture, encode and serve the Windows desktop (Task 8.1)",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/4",
-          "mergedAt": "2026-08-18T12:54:40Z",
-          "type": "feat",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
         }
       ]
     },
@@ -399,24 +399,24 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-24T12:33:55.138Z",
+      "fetchedAt": "2026-08-25T02:36:11.780Z",
       "data": {
         "nodes": 59409,
         "edges": 219308,
         "communities": 15700,
         "godNodes": 20,
-        "builtAt": "2026-08-24T09:29:00.029Z"
+        "builtAt": "2026-08-24T13:26:19.493Z"
       }
     },
     "shipped30d": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-24T12:33:58.810Z",
+      "fetchedAt": "2026-08-25T02:36:18.543Z",
       "data": {
         "merged": 50,
         "taskLinked": 25,
-        "costUsd": 307.758605
+        "costUsd": 309.32534999999996
       }
     }
   }

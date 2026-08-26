@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T02:36:19.628Z",
+  "generatedAt": "2026-08-26T02:44:32.604Z",
   "ok": true,
   "failedSources": [],
   "sources": {
@@ -7,32 +7,176 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-25T02:36:10.171Z",
+      "fetchedAt": "2026-08-26T02:44:25.332Z",
       "data": {
-        "total": 256,
-        "activeDays": 29,
-        "daysInWindow": 372
+        "total": 264,
+        "activeDays": 30,
+        "daysInWindow": 373
       }
     },
     "authored": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-25T02:36:10.797Z",
+      "fetchedAt": "2026-08-26T02:44:26.107Z",
       "data": {
         "name": "Nischay B K",
         "joined": "2024-03-20T07:19:22Z",
-        "prsAllTime": 577,
-        "prsMerged": 567,
-        "prsThisYear": 577
+        "prsAllTime": 593,
+        "prsMerged": 583,
+        "prsThisYear": 593
       }
     },
     "ships": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-25T02:36:11.340Z",
+      "fetchedAt": "2026-08-26T02:44:26.744Z",
       "data": [
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-25T18:11:10Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-25T17:57:52Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-25T17:23:30Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": 119,
+          "title": "t-735 package mnema-brain as a Claude Code plugin",
+          "url": "https://github.com/nbkdoesntknowcoding/mnema/pull/119",
+          "mergedAt": "2026-08-25T14:02:38Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/mnema"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-25T13:23:16Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-25T12:09:47Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-25T11:38:49Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-25T10:57:39Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-25T10:28:34Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-25T10:05:51Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": 118,
+          "title": "t-73x registry metadata enrichment v0.1.1",
+          "url": "https://github.com/nbkdoesntknowcoding/mnema/pull/118",
+          "mergedAt": "2026-08-25T09:46:48Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/mnema"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-25T09:38:36Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-25T09:31:14Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-25T09:30:49Z",
+          "type": "test",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": 117,
+          "title": "t-732 publish server.json to the Official MCP Registry",
+          "url": "https://github.com/nbkdoesntknowcoding/mnema/pull/117",
+          "mergedAt": "2026-08-25T09:23:24Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/mnema"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-25T07:51:15Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
         {
           "number": null,
           "title": null,
@@ -248,150 +392,6 @@
           "type": "feat",
           "task": null,
           "repo": "nbkdoesntknowcoding/display-share"
-        },
-        {
-          "number": 34,
-          "title": "fix(release): never publish an updater manifest that loops",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/34",
-          "mergedAt": "2026-08-20T17:26:11Z",
-          "type": "fix",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
-        },
-        {
-          "number": 31,
-          "title": "feat(design): design tokens, brand mark, humanised errors, device-as-hero",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/31",
-          "mergedAt": "2026-08-20T17:02:38Z",
-          "type": "feat",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
-        },
-        {
-          "number": 30,
-          "title": "fix(windows): bracket IPv6 and prefer IPv4, so the URL parses at all",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/30",
-          "mergedAt": "2026-08-20T14:05:37Z",
-          "type": "fix",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
-        },
-        {
-          "number": 28,
-          "title": "fix(windows): make the update path survive a broken release",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/28",
-          "mergedAt": "2026-08-20T12:47:47Z",
-          "type": "fix",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
-        },
-        {
-          "number": 26,
-          "title": "fix: check for updates while running, not only at launch",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/26",
-          "mergedAt": "2026-08-20T09:32:32Z",
-          "type": "fix",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
-        },
-        {
-          "number": 24,
-          "title": "fix(windows): repair the startup crash that killed the whole receiver",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/24",
-          "mergedAt": "2026-08-20T07:11:03Z",
-          "type": "fix",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
-        },
-        {
-          "number": 22,
-          "title": "feat: add the settings, connection and accessibility the app never had",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/22",
-          "mergedAt": "2026-08-20T06:40:04Z",
-          "type": "feat",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
-        },
-        {
-          "number": 20,
-          "title": "Phase 10: cut the latency, name the link, and rebuild both interfaces",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/20",
-          "mergedAt": "2026-08-20T06:00:53Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
-        },
-        {
-          "number": 18,
-          "title": "perf: measure the latency, then remove the delay that was measurable",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/18",
-          "mergedAt": "2026-08-19T17:48:14Z",
-          "type": "perf",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
-        },
-        {
-          "number": 16,
-          "title": "fix(windows): show the version, and delete the duplicated share button",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/16",
-          "mergedAt": "2026-08-19T09:19:48Z",
-          "type": "fix",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
-        },
-        {
-          "number": 14,
-          "title": "fix(mac): read GitHub's compare direction the right way round",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/14",
-          "mergedAt": "2026-08-19T08:46:42Z",
-          "type": "fix",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
-        },
-        {
-          "number": 12,
-          "title": "fix(release): point latest.json at the asset GitHub actually created",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/12",
-          "mergedAt": "2026-08-19T08:17:37Z",
-          "type": "fix",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
-        },
-        {
-          "number": 10,
-          "title": "feat(mac): let the Mac update itself too",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/10",
-          "mergedAt": "2026-08-19T07:41:12Z",
-          "type": "feat",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
-        },
-        {
-          "number": 8,
-          "title": "Phase 8 + 9 complete: recover v0.5.0's missing work, auto-update, interfaces, installers, and control of Windows",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/8",
-          "mergedAt": "2026-08-19T07:13:27Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-08-19T07:10:16Z",
-          "type": "fix",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-08-19T06:44:27Z",
-          "type": "feat",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
         }
       ]
     },
@@ -399,24 +399,24 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-25T02:36:11.780Z",
+      "fetchedAt": "2026-08-26T02:44:27.253Z",
       "data": {
-        "nodes": 59409,
-        "edges": 219308,
+        "nodes": 59456,
+        "edges": 219647,
         "communities": 15700,
         "godNodes": 20,
-        "builtAt": "2026-08-24T13:26:19.493Z"
+        "builtAt": "2026-08-25T17:55:33.642Z"
       }
     },
     "shipped30d": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-25T02:36:18.543Z",
+      "fetchedAt": "2026-08-26T02:44:31.382Z",
       "data": {
         "merged": 50,
-        "taskLinked": 25,
-        "costUsd": 309.32534999999996
+        "taskLinked": 29,
+        "costUsd": 322.28235499999994
       }
     }
   }

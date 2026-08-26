@@ -3,6 +3,17 @@
 Every question this profile has been asked, and what the knowledge graph said at the time.
 Answers are point-in-time — the graph moves.
 
+### Who am I, according to my own knowledge graph?
+
+Asked by [@QuantumWars](https://github.com/QuantumWars) · 2026-08-26 05:32 UTC · [#11](https://github.com/nbkdoesntknowcoding/nbkdoesntknowcoding/issues/11)
+
+{"content":"You are Nischay B K, Founder & CEO, on the Leadership team, in Leadership. As a workspace owner, you have full access to everything in the workspace.","structuredContent":{"identified":true,"name":"Nischay B K","email":"nischaybk@theboringpeople.in","title":"Founder & CEO","role":"Founder & CEO","role_slug":"founder-ceo","team":"Leadership","department":"Leadership","workspace_role":"owner"}}
+
+That line is not written into this README. It is resolved at answer time from the
+org chart inside Mnema, through the same MCP tool any connected agent would call.
+
+---
+
 ### How big is the knowledge graph behind this profile?
 
 Asked by [@nbkdoesntknowcoding](https://github.com/nbkdoesntknowcoding) · 2026-08-24 12:41 UTC · [#10](https://github.com/nbkdoesntknowcoding/nbkdoesntknowcoding/issues/10)

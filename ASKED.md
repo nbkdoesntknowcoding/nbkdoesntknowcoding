@@ -3,6 +3,21 @@
 Every question this profile has been asked, and what the knowledge graph said at the time.
 Answers are point-in-time — the graph moves.
 
+### How big is the knowledge graph behind this profile?
+
+Asked by [@nbkdoesntknowcoding](https://github.com/nbkdoesntknowcoding) · 2026-08-27 16:59 UTC · [#12](https://github.com/nbkdoesntknowcoding/nbkdoesntknowcoding/issues/12)
+
+| | |
+|---|--:|
+| Nodes | 59,853 |
+| Edges | 223,495 |
+| Communities | 15,700 |
+| God-nodes | 20 |
+
+Last rebuilt `2026-08-27T16:19:37.067Z`.
+
+---
+
 ### Who am I, according to my own knowledge graph?
 
 Asked by [@QuantumWars](https://github.com/QuantumWars) · 2026-08-26 05:32 UTC · [#11](https://github.com/nbkdoesntknowcoding/nbkdoesntknowcoding/issues/11)

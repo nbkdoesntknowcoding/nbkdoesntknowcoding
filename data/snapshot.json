@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T02:44:32.604Z",
+  "generatedAt": "2026-08-28T13:05:58.712Z",
   "ok": true,
   "failedSources": [],
   "sources": {
@@ -7,145 +7,46 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-26T02:44:25.332Z",
+      "fetchedAt": "2026-08-28T13:05:53.964Z",
       "data": {
-        "total": 264,
-        "activeDays": 30,
-        "daysInWindow": 373
+        "total": 299,
+        "activeDays": 32,
+        "daysInWindow": 375
       }
     },
     "authored": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-26T02:44:26.107Z",
+      "fetchedAt": "2026-08-28T13:05:54.557Z",
       "data": {
         "name": "Nischay B K",
         "joined": "2024-03-20T07:19:22Z",
-        "prsAllTime": 593,
-        "prsMerged": 583,
-        "prsThisYear": 593
+        "prsAllTime": 662,
+        "prsMerged": 653,
+        "prsThisYear": 662
       }
     },
     "ships": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-26T02:44:26.744Z",
+      "fetchedAt": "2026-08-28T13:05:55.073Z",
       "data": [
         {
           "number": null,
           "title": null,
           "url": null,
-          "mergedAt": "2026-08-25T18:11:10Z",
+          "mergedAt": "2026-08-28T13:04:58Z",
           "type": "chore",
           "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
+          "repo": "nbkdoesntknowcoding/boring-labs-site"
         },
         {
           "number": null,
           "title": null,
           "url": null,
-          "mergedAt": "2026-08-25T17:57:52Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-08-25T17:23:30Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": 119,
-          "title": "t-735 package mnema-brain as a Claude Code plugin",
-          "url": "https://github.com/nbkdoesntknowcoding/mnema/pull/119",
-          "mergedAt": "2026-08-25T14:02:38Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/mnema"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-08-25T13:23:16Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-08-25T12:09:47Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-08-25T11:38:49Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-08-25T10:57:39Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-08-25T10:28:34Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-08-25T10:05:51Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": 118,
-          "title": "t-73x registry metadata enrichment v0.1.1",
-          "url": "https://github.com/nbkdoesntknowcoding/mnema/pull/118",
-          "mergedAt": "2026-08-25T09:46:48Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/mnema"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-08-25T09:38:36Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-08-25T09:31:14Z",
+          "mergedAt": "2026-08-28T13:04:41Z",
           "type": "fix",
           "task": null,
           "repo": "nbkdoesntknowcoding/project-x"
@@ -154,34 +55,25 @@
           "number": null,
           "title": null,
           "url": null,
-          "mergedAt": "2026-08-25T09:30:49Z",
-          "type": "test",
+          "mergedAt": "2026-08-28T12:44:28Z",
+          "type": "fix",
           "task": null,
           "repo": "nbkdoesntknowcoding/project-x"
         },
         {
-          "number": 117,
-          "title": "t-732 publish server.json to the Official MCP Registry",
-          "url": "https://github.com/nbkdoesntknowcoding/mnema/pull/117",
-          "mergedAt": "2026-08-25T09:23:24Z",
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-28T12:38:20Z",
           "type": "chore",
           "task": null,
-          "repo": "nbkdoesntknowcoding/mnema"
+          "repo": "nbkdoesntknowcoding/boring-labs-site"
         },
         {
           "number": null,
           "title": null,
           "url": null,
-          "mergedAt": "2026-08-25T07:51:15Z",
-          "type": "feat",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-08-24T13:12:35Z",
+          "mergedAt": "2026-08-28T12:26:32Z",
           "type": "fix",
           "task": null,
           "repo": "nbkdoesntknowcoding/project-x"
@@ -190,8 +82,44 @@
           "number": null,
           "title": null,
           "url": null,
-          "mergedAt": "2026-08-24T12:42:25Z",
-          "type": "test",
+          "mergedAt": "2026-08-28T12:22:13Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/boring-labs-site"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-28T12:16:21Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-28T11:09:38Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/boring-labs-site"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-28T11:09:09Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/boring-labs-site"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-28T11:08:21Z",
+          "type": "fix",
           "task": null,
           "repo": "nbkdoesntknowcoding/project-x"
         },
@@ -199,71 +127,17 @@
           "number": null,
           "title": null,
           "url": null,
-          "mergedAt": "2026-08-24T12:33:42Z",
+          "mergedAt": "2026-08-28T11:08:02Z",
           "type": "fix",
           "task": null,
-          "repo": "nbkdoesntknowcoding/nbkdoesntknowcoding"
+          "repo": "nbkdoesntknowcoding/project-x"
         },
         {
           "number": null,
           "title": null,
           "url": null,
-          "mergedAt": "2026-08-24T12:26:51Z",
+          "mergedAt": "2026-08-28T07:37:23Z",
           "type": "fix",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/nbkdoesntknowcoding"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-08-24T12:21:56Z",
-          "type": "fix",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/nbkdoesntknowcoding"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-08-24T12:18:02Z",
-          "type": "fix",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/nbkdoesntknowcoding"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-08-24T06:11:21Z",
-          "type": "docs",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/nbkdoesntknowcoding"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-08-22T19:56:54Z",
-          "type": "feat",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/nbkdoesntknowcoding"
-        },
-        {
-          "number": 58,
-          "title": "feat: where the milliseconds actually go",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/58",
-          "mergedAt": "2026-08-22T19:20:41Z",
-          "type": "feat",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-08-22T19:16:23Z",
-          "type": "feat",
           "task": null,
           "repo": "nbkdoesntknowcoding/project-x"
         },
@@ -271,127 +145,253 @@
           "number": null,
           "title": null,
           "url": null,
-          "mergedAt": "2026-08-22T19:15:22Z",
-          "type": "feat",
+          "mergedAt": "2026-08-28T07:27:20Z",
+          "type": "fix",
           "task": null,
           "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": 56,
-          "title": "perf(mac): the low-latency encoder was never asked for",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/56",
-          "mergedAt": "2026-08-22T18:46:48Z",
-          "type": "perf",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
         },
         {
           "number": null,
           "title": null,
           "url": null,
-          "mergedAt": "2026-08-22T18:37:04Z",
-          "type": "feat",
+          "mergedAt": "2026-08-28T07:15:17Z",
+          "type": "fix",
           "task": null,
           "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": 54,
-          "title": "fix: the send path promised to shed frames and did the opposite",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/54",
-          "mergedAt": "2026-08-22T09:48:24Z",
-          "type": "fix",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
-        },
-        {
-          "number": 52,
-          "title": "fix(mac): a live fps change put the deep capture queue back",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/52",
-          "mergedAt": "2026-08-22T07:16:54Z",
-          "type": "fix",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
-        },
-        {
-          "number": 50,
-          "title": "fix(mac): a copy that updated itself never looked again",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/50",
-          "mergedAt": "2026-08-21T13:42:51Z",
-          "type": "fix",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
-        },
-        {
-          "number": 48,
-          "title": "test: check the two things that only break in front of users",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/48",
-          "mergedAt": "2026-08-21T13:04:42Z",
-          "type": "test",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
-        },
-        {
-          "number": 46,
-          "title": "feat: say it in words a user can act on",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/46",
-          "mergedAt": "2026-08-21T12:30:35Z",
-          "type": "feat",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
-        },
-        {
-          "number": 44,
-          "title": "feat(win): the receiver becomes a window instead of a card on a void",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/44",
-          "mergedAt": "2026-08-21T07:54:58Z",
-          "type": "feat",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
         },
         {
           "number": null,
           "title": null,
           "url": null,
-          "mergedAt": "2026-08-21T07:27:52Z",
+          "mergedAt": "2026-08-28T07:00:00Z",
           "type": "fix",
           "task": null,
           "repo": "nbkdoesntknowcoding/project-x"
         },
         {
-          "number": 42,
-          "title": "feat(mac): the popover leads with what is happening",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/42",
-          "mergedAt": "2026-08-21T07:19:24Z",
-          "type": "feat",
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-28T06:49:24Z",
+          "type": "fix",
           "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
+          "repo": "nbkdoesntknowcoding/project-x"
         },
         {
-          "number": 40,
-          "title": "feat: one button, one input, in both apps",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/40",
-          "mergedAt": "2026-08-21T06:30:56Z",
-          "type": "feat",
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-28T06:25:55Z",
+          "type": "fix",
           "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
+          "repo": "nbkdoesntknowcoding/project-x"
         },
         {
-          "number": 38,
-          "title": "feat: the states that are not the happy path",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/38",
-          "mergedAt": "2026-08-20T19:23:05Z",
-          "type": "feat",
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-28T06:21:54Z",
+          "type": "chore",
           "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
+          "repo": "nbkdoesntknowcoding/boring-labs-site"
         },
         {
-          "number": 36,
-          "title": "feat(mac): a status line that tells the truth about the session",
-          "url": "https://github.com/nbkdoesntknowcoding/display-share/pull/36",
-          "mergedAt": "2026-08-20T17:55:09Z",
-          "type": "feat",
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-28T04:13:19Z",
+          "type": "chore",
           "task": null,
-          "repo": "nbkdoesntknowcoding/display-share"
+          "repo": "nbkdoesntknowcoding/boring-labs-site"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-27T19:21:54Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/boring-labs-site"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-27T18:49:15Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/boring-labs-site"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-27T17:03:04Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-27T15:58:42Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/boring-labs-site"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-27T15:58:26Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-27T15:44:18Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-27T15:17:16Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/boring-labs-site"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-27T15:16:59Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-27T15:07:23Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-27T14:54:54Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/boring-labs-site"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-27T14:34:39Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/boring-labs-site"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-27T14:15:45Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/boring-labs-site"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-27T11:26:02Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/boring-labs-site"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-27T11:16:42Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/boring-labs-site"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-27T08:15:31Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/boring-labs-site"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-27T07:59:25Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-27T05:25:02Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/boring-labs-site"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-26T18:37:12Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/boring-labs-site"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-26T18:13:03Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/boring-labs-site"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-26T17:54:13Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/boring-labs-site"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-26T17:03:08Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/boring-labs-site"
         }
       ]
     },
@@ -399,24 +399,24 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-26T02:44:27.253Z",
+      "fetchedAt": "2026-08-28T13:05:55.707Z",
       "data": {
-        "nodes": 59456,
-        "edges": 219647,
+        "nodes": 60140,
+        "edges": 226328,
         "communities": 15700,
         "godNodes": 20,
-        "builtAt": "2026-08-25T17:55:33.642Z"
+        "builtAt": "2026-08-28T12:16:53.136Z"
       }
     },
     "shipped30d": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-26T02:44:31.382Z",
+      "fetchedAt": "2026-08-28T13:05:58.424Z",
       "data": {
         "merged": 50,
-        "taskLinked": 29,
-        "costUsd": 322.28235499999994
+        "taskLinked": 41,
+        "costUsd": 340.12029999999993
       }
     }
   }

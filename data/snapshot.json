@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T13:05:58.712Z",
+  "generatedAt": "2026-08-29T08:01:49.879Z",
   "ok": true,
   "failedSources": [],
   "sources": {
@@ -7,32 +7,68 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-28T13:05:53.964Z",
+      "fetchedAt": "2026-08-29T08:01:43.304Z",
       "data": {
         "total": 299,
         "activeDays": 32,
-        "daysInWindow": 375
+        "daysInWindow": 376
       }
     },
     "authored": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-28T13:05:54.557Z",
+      "fetchedAt": "2026-08-29T08:01:43.958Z",
       "data": {
         "name": "Nischay B K",
         "joined": "2024-03-20T07:19:22Z",
-        "prsAllTime": 662,
-        "prsMerged": 653,
-        "prsThisYear": 662
+        "prsAllTime": 666,
+        "prsMerged": 657,
+        "prsThisYear": 666
       }
     },
     "ships": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-28T13:05:55.073Z",
+      "fetchedAt": "2026-08-29T08:01:44.581Z",
       "data": [
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-28T21:09:54Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-28T17:06:39Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/boring-labs-site"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-28T16:56:17Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/boring-labs-site"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-08-28T16:17:57Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/boring-labs-site"
+        },
         {
           "number": null,
           "title": null,
@@ -356,42 +392,6 @@
           "type": "chore",
           "task": null,
           "repo": "nbkdoesntknowcoding/boring-labs-site"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-08-26T18:37:12Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/boring-labs-site"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-08-26T18:13:03Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/boring-labs-site"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-08-26T17:54:13Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/boring-labs-site"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-08-26T17:03:08Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/boring-labs-site"
         }
       ]
     },
@@ -399,24 +399,24 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-28T13:05:55.707Z",
+      "fetchedAt": "2026-08-29T08:01:45.153Z",
       "data": {
-        "nodes": 60140,
-        "edges": 226328,
+        "nodes": 60302,
+        "edges": 228869,
         "communities": 15700,
         "godNodes": 20,
-        "builtAt": "2026-08-28T12:16:53.136Z"
+        "builtAt": "2026-08-29T04:06:22.395Z"
       }
     },
     "shipped30d": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-08-28T13:05:58.424Z",
+      "fetchedAt": "2026-08-29T08:01:48.832Z",
       "data": {
         "merged": 50,
         "taskLinked": 41,
-        "costUsd": 340.12029999999993
+        "costUsd": 322.28235499999994
       }
     }
   }

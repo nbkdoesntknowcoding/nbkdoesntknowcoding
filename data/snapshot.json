@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T06:04:29.696Z",
+  "generatedAt": "2026-09-04T06:12:27.324Z",
   "ok": true,
   "failedSources": [],
   "sources": {
@@ -7,32 +7,122 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-09-03T06:04:22.420Z",
+      "fetchedAt": "2026-09-04T06:12:21.373Z",
       "data": {
         "total": 299,
         "activeDays": 32,
-        "daysInWindow": 374
+        "daysInWindow": 375
       }
     },
     "authored": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-09-03T06:04:23.300Z",
+      "fetchedAt": "2026-09-04T06:12:22.214Z",
       "data": {
         "name": "Nischay B K",
         "joined": "2024-03-20T07:19:22Z",
-        "prsAllTime": 738,
-        "prsMerged": 729,
-        "prsThisYear": 738
+        "prsAllTime": 749,
+        "prsMerged": 739,
+        "prsThisYear": 749
       }
     },
     "ships": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-09-03T06:04:23.995Z",
+      "fetchedAt": "2026-09-04T06:12:22.969Z",
       "data": [
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-09-03T19:48:06Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-09-03T19:30:21Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-09-03T11:08:19Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-09-03T07:11:32Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-09-03T06:55:19Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-09-03T06:54:59Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-09-03T06:54:27Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-09-03T06:53:40Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-09-03T06:53:13Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-09-03T06:52:56Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
         {
           "number": null,
           "title": null,
@@ -302,96 +392,6 @@
           "type": "chore",
           "task": null,
           "repo": "nbkdoesntknowcoding/boring-labs-site"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-09-01T10:59:05Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/boring-labs-site"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-09-01T10:25:44Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/boring-labs-site"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-09-01T09:57:22Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/boring-labs-site"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-09-01T09:29:38Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-09-01T09:20:13Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/boring-labs-site"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-09-01T08:55:39Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-09-01T07:31:53Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/boring-labs-site"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-09-01T07:27:00Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/boring-labs-site"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-09-01T07:18:13Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/boring-labs-site"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-09-01T06:48:23Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/boring-labs-site"
         }
       ]
     },
@@ -399,24 +399,24 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-09-03T06:04:24.588Z",
+      "fetchedAt": "2026-09-04T06:12:23.720Z",
       "data": {
-        "nodes": 62950,
-        "edges": 243165,
+        "nodes": 64101,
+        "edges": 247949,
         "communities": 15700,
         "godNodes": 20,
-        "builtAt": "2026-09-03T04:14:46.715Z"
+        "builtAt": "2026-09-04T06:09:12.846Z"
       }
     },
     "shipped30d": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-09-03T06:04:28.608Z",
+      "fetchedAt": "2026-09-04T06:12:27.013Z",
       "data": {
         "merged": 50,
-        "taskLinked": 37,
-        "costUsd": 52.415435
+        "taskLinked": 38,
+        "costUsd": 371.71984
       }
     }
   }

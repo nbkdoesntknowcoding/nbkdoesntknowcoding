@@ -1,38 +1,122 @@
 {
-  "generatedAt": "2026-09-20T06:35:40.761Z",
-  "ok": true,
-  "failedSources": [],
+  "generatedAt": "2026-09-21T06:43:50.117Z",
+  "ok": false,
+  "failedSources": [
+    "graph",
+    "shipped30d"
+  ],
   "sources": {
     "publicGraph": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-09-20T06:35:31.523Z",
+      "fetchedAt": "2026-09-21T06:42:18.322Z",
       "data": {
-        "total": 4938,
+        "total": 4955,
         "activeDays": 274,
-        "daysInWindow": 370
+        "daysInWindow": 371
       }
     },
     "authored": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-09-20T06:35:32.619Z",
+      "fetchedAt": "2026-09-21T06:42:19.466Z",
       "data": {
         "name": "Nischay B K",
         "joined": "2024-03-20T07:19:22Z",
-        "prsAllTime": 1061,
-        "prsMerged": 1045,
-        "prsThisYear": 1061
+        "prsAllTime": 1069,
+        "prsMerged": 1054,
+        "prsThisYear": 1069
       }
     },
     "ships": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-09-20T06:35:33.268Z",
+      "fetchedAt": "2026-09-21T06:42:20.262Z",
       "data": [
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-09-20T09:55:51Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-09-20T09:55:42Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-09-20T09:36:02Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-09-20T09:35:52Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-09-20T08:45:58Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-09-20T08:31:01Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-09-20T08:30:49Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-09-20T08:30:38Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-09-20T07:32:26Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
         {
           "number": null,
           "title": null,
@@ -311,95 +395,15 @@
           "type": "feat",
           "task": null,
           "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-09-16T15:45:34Z",
-          "type": "feat",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-09-16T15:36:27Z",
-          "type": "feat",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-09-16T14:30:28Z",
-          "type": "docs",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-09-16T14:29:15Z",
-          "type": "chore",
-          "task": null,
-          "repo": "Jason-jo17/Vps_Dockmaster"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-09-16T14:13:41Z",
-          "type": "chore",
-          "task": null,
-          "repo": "Jason-jo17/Vps_Dockmaster"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-09-16T14:13:23Z",
-          "type": "feat",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-09-16T14:02:11Z",
-          "type": "fix",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-09-16T13:49:26Z",
-          "type": "chore",
-          "task": null,
-          "repo": "Jason-jo17/Vps_Dockmaster"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-09-16T13:30:50Z",
-          "type": "feat",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
         }
       ]
     },
     "graph": {
-      "ok": true,
-      "stale": false,
-      "reason": null,
+      "ok": false,
+      "stale": true,
+      "reason": "TimeoutError",
       "fetchedAt": "2026-09-20T06:35:33.969Z",
+      "staleSince": "2026-09-21T06:42:20.720Z",
       "data": {
         "nodes": 67646,
         "edges": 299907,
@@ -409,10 +413,11 @@
       }
     },
     "shipped30d": {
-      "ok": true,
-      "stale": false,
-      "reason": null,
+      "ok": false,
+      "stale": true,
+      "reason": "http_525",
       "fetchedAt": "2026-09-20T06:35:39.668Z",
+      "staleSince": "2026-09-21T06:43:05.722Z",
       "data": {
         "merged": 50,
         "taskLinked": 39,

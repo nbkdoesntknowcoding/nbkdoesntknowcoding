@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T07:01:17.529Z",
+  "generatedAt": "2026-10-01T07:26:33.230Z",
   "ok": true,
   "failedSources": [],
   "sources": {
@@ -7,32 +7,68 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-09-30T07:01:09.451Z",
+      "fetchedAt": "2026-10-01T07:26:27.167Z",
       "data": {
-        "total": 5352,
+        "total": 5364,
         "activeDays": 282,
-        "daysInWindow": 373
+        "daysInWindow": 374
       }
     },
     "authored": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-09-30T07:01:10.634Z",
+      "fetchedAt": "2026-10-01T07:26:28.359Z",
       "data": {
         "name": "Nischay B K",
         "joined": "2024-03-20T07:19:22Z",
-        "prsAllTime": 1291,
-        "prsMerged": 1273,
-        "prsThisYear": 1291
+        "prsAllTime": 1295,
+        "prsMerged": 1277,
+        "prsThisYear": 1295
       }
     },
     "ships": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-09-30T07:01:11.246Z",
+      "fetchedAt": "2026-10-01T07:26:28.946Z",
       "data": [
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-09-30T10:13:02Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/quick-quote"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-09-30T09:16:03Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/quick-quote"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-09-30T07:45:48Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/quick-quote"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-09-30T07:02:30Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/quick-quote"
+        },
         {
           "number": null,
           "title": null,
@@ -356,42 +392,6 @@
           "type": "feat",
           "task": null,
           "repo": "nbkdoesntknowcoding/quick-quote"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-09-29T09:23:07Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/quick-quote"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-09-29T09:22:59Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/quick-quote"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-09-29T09:22:50Z",
-          "type": "refactor",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/quick-quote"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-09-29T09:22:41Z",
-          "type": "refactor",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/quick-quote"
         }
       ]
     },
@@ -399,23 +399,23 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-09-30T07:01:11.838Z",
+      "fetchedAt": "2026-10-01T07:26:29.495Z",
       "data": {
-        "nodes": 68962,
-        "edges": 332636,
+        "nodes": 69154,
+        "edges": 334613,
         "communities": 15700,
         "godNodes": 20,
-        "builtAt": "2026-09-30T04:06:13.939Z"
+        "builtAt": "2026-10-01T07:10:48.881Z"
       }
     },
     "shipped30d": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-09-30T07:01:17.294Z",
+      "fetchedAt": "2026-10-01T07:26:32.881Z",
       "data": {
         "merged": 50,
-        "taskLinked": 40,
+        "taskLinked": 35,
         "costUsd": 250.899125
       }
     }

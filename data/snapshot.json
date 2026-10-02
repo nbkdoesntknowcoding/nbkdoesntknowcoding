@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T07:26:33.230Z",
+  "generatedAt": "2026-10-02T07:13:37.817Z",
   "ok": true,
   "failedSources": [],
   "sources": {
@@ -7,32 +7,50 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-10-01T07:26:27.167Z",
+      "fetchedAt": "2026-10-02T07:13:27.214Z",
       "data": {
-        "total": 5364,
-        "activeDays": 282,
-        "daysInWindow": 374
+        "total": 5369,
+        "activeDays": 283,
+        "daysInWindow": 375
       }
     },
     "authored": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-10-01T07:26:28.359Z",
+      "fetchedAt": "2026-10-02T07:13:32.614Z",
       "data": {
         "name": "Nischay B K",
         "joined": "2024-03-20T07:19:22Z",
-        "prsAllTime": 1295,
-        "prsMerged": 1277,
-        "prsThisYear": 1295
+        "prsAllTime": 1296,
+        "prsMerged": 1279,
+        "prsThisYear": 1296
       }
     },
     "ships": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-10-01T07:26:28.946Z",
+      "fetchedAt": "2026-10-02T07:13:33.432Z",
       "data": [
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-10-02T05:51:55Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-10-01T18:54:02Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/quick-quote"
+        },
         {
           "number": null,
           "title": null,
@@ -374,24 +392,6 @@
           "type": "fix",
           "task": null,
           "repo": "nbkdoesntknowcoding/quick-quote"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-09-29T09:24:30Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/quick-quote"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-09-29T09:23:16Z",
-          "type": "feat",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/quick-quote"
         }
       ]
     },
@@ -399,24 +399,24 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-10-01T07:26:29.495Z",
+      "fetchedAt": "2026-10-02T07:13:34.418Z",
       "data": {
-        "nodes": 69154,
-        "edges": 334613,
+        "nodes": 69246,
+        "edges": 336186,
         "communities": 15700,
         "godNodes": 20,
-        "builtAt": "2026-10-01T07:10:48.881Z"
+        "builtAt": "2026-10-02T04:06:20.566Z"
       }
     },
     "shipped30d": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-10-01T07:26:32.881Z",
+      "fetchedAt": "2026-10-02T07:13:37.564Z",
       "data": {
         "merged": 50,
-        "taskLinked": 35,
-        "costUsd": 250.899125
+        "taskLinked": 26,
+        "costUsd": 229.4574
       }
     }
   }

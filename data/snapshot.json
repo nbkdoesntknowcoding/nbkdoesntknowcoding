@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T07:21:26.379Z",
+  "generatedAt": "2026-10-06T07:48:15.263Z",
   "ok": true,
   "failedSources": [],
   "sources": {
@@ -7,18 +7,18 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-10-05T07:21:18.046Z",
+      "fetchedAt": "2026-10-06T07:47:58.757Z",
       "data": {
-        "total": 5343,
-        "activeDays": 279,
-        "daysInWindow": 371
+        "total": 5344,
+        "activeDays": 280,
+        "daysInWindow": 372
       }
     },
     "authored": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-10-05T07:21:19.264Z",
+      "fetchedAt": "2026-10-06T07:48:00.346Z",
       "data": {
         "name": "Nischay B K",
         "joined": "2024-03-20T07:19:22Z",
@@ -31,7 +31,7 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-10-05T07:21:19.907Z",
+      "fetchedAt": "2026-10-06T07:48:00.935Z",
       "data": [
         {
           "number": null,
@@ -399,24 +399,24 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-10-05T07:21:20.438Z",
+      "fetchedAt": "2026-10-06T07:48:01.712Z",
       "data": {
-        "nodes": 69279,
-        "edges": 338660,
+        "nodes": 69299,
+        "edges": 339429,
         "communities": 15700,
         "godNodes": 20,
-        "builtAt": "2026-10-05T04:06:17.962Z"
+        "builtAt": "2026-10-06T07:45:43.955Z"
       }
     },
     "shipped30d": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-10-05T07:21:25.319Z",
+      "fetchedAt": "2026-10-06T07:48:15.014Z",
       "data": {
         "merged": 50,
         "taskLinked": 26,
-        "costUsd": 229.4574
+        "costUsd": 233.59736999999998
       }
     }
   }

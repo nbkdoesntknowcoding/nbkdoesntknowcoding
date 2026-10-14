@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T07:58:54.817Z",
+  "generatedAt": "2026-10-14T06:25:07.596Z",
   "ok": true,
   "failedSources": [],
   "sources": {
@@ -7,32 +7,77 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-10-13T07:58:46.821Z",
+      "fetchedAt": "2026-10-14T06:24:57.815Z",
       "data": {
-        "total": 5613,
-        "activeDays": 283,
-        "daysInWindow": 372
+        "total": 5635,
+        "activeDays": 284,
+        "daysInWindow": 373
       }
     },
     "authored": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-10-13T07:58:49.097Z",
+      "fetchedAt": "2026-10-14T06:24:59.544Z",
       "data": {
         "name": "Nischay B K",
         "joined": "2024-03-20T07:19:22Z",
-        "prsAllTime": 1347,
-        "prsMerged": 1328,
-        "prsThisYear": 1347
+        "prsAllTime": 1352,
+        "prsMerged": 1333,
+        "prsThisYear": 1352
       }
     },
     "ships": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-10-13T07:58:49.834Z",
+      "fetchedAt": "2026-10-14T06:25:00.290Z",
       "data": [
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-10-13T18:34:02Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/lok-wa-sync"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-10-13T11:53:28Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/lok-wa-sync"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-10-13T11:50:02Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/lok-wa-sync"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-10-13T11:49:46Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/lok-wa-sync"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-10-13T08:30:45Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/lok-wa-sync"
+        },
         {
           "number": null,
           "title": null,
@@ -347,51 +392,6 @@
           "type": "chore",
           "task": null,
           "repo": "nbkdoesntknowcoding/lok-wa-sync"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-10-07T10:52:46Z",
-          "type": "feat",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/lok-wa-sync"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-10-06T18:25:05Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/lok-wa-sync"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-10-06T17:54:35Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/lok-wa-sync"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-10-06T17:24:41Z",
-          "type": "feat",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/lok-wa-sync"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-10-06T17:24:29Z",
-          "type": "chore",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/lok-wa-sync"
         }
       ]
     },
@@ -399,20 +399,20 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-10-13T07:58:50.541Z",
+      "fetchedAt": "2026-10-14T06:25:00.805Z",
       "data": {
-        "nodes": 70334,
-        "edges": 366172,
+        "nodes": 70805,
+        "edges": 371419,
         "communities": 15700,
         "godNodes": 20,
-        "builtAt": "2026-10-13T07:53:55.767Z"
+        "builtAt": "2026-10-14T06:21:17.808Z"
       }
     },
     "shipped30d": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-10-13T07:58:54.487Z",
+      "fetchedAt": "2026-10-14T06:25:07.174Z",
       "data": {
         "merged": 50,
         "taskLinked": 19,

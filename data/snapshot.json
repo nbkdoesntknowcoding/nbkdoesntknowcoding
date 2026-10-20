@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T06:15:49.522Z",
+  "generatedAt": "2026-10-20T06:16:03.460Z",
   "ok": true,
   "failedSources": [],
   "sources": {
@@ -7,32 +7,122 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-10-18T06:15:42.330Z",
+      "fetchedAt": "2026-10-20T06:15:54.904Z",
       "data": {
-        "total": 5769,
-        "activeDays": 281,
-        "daysInWindow": 370
+        "total": 5801,
+        "activeDays": 283,
+        "daysInWindow": 372
       }
     },
     "authored": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-10-18T06:15:43.655Z",
+      "fetchedAt": "2026-10-20T06:15:56.262Z",
       "data": {
         "name": "Nischay B K",
         "joined": "2024-03-20T07:19:22Z",
-        "prsAllTime": 1418,
-        "prsMerged": 1400,
-        "prsThisYear": 1418
+        "prsAllTime": 1428,
+        "prsMerged": 1410,
+        "prsThisYear": 1428
       }
     },
     "ships": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-10-18T06:15:44.283Z",
+      "fetchedAt": "2026-10-20T06:15:56.879Z",
       "data": [
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-10-19T19:19:02Z",
+          "type": "fix",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-10-19T19:11:02Z",
+          "type": "docs",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/lok-wa-sync"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-10-19T15:28:45Z",
+          "type": "feat",
+          "task": null,
+          "repo": "QuantumWars/commoditiesTracker"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-10-19T15:16:21Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/lok-wa-sync"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-10-19T14:57:08Z",
+          "type": "feat",
+          "task": null,
+          "repo": "QuantumWars/commoditiesTracker"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-10-19T14:56:59Z",
+          "type": "feat",
+          "task": null,
+          "repo": "QuantumWars/commoditiesTracker"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-10-19T14:43:06Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/lok-wa-sync"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-10-19T14:42:49Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/lok-wa-sync"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-10-19T14:42:35Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/lok-wa-sync"
+        },
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-10-19T11:50:20Z",
+          "type": "feat",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/project-x"
+        },
         {
           "number": null,
           "title": null,
@@ -302,96 +392,6 @@
           "type": "feat",
           "task": null,
           "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-10-15T16:35:03Z",
-          "type": "fix",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-10-15T16:34:40Z",
-          "type": "fix",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-10-15T16:34:11Z",
-          "type": "fix",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-10-15T16:33:52Z",
-          "type": "fix",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-10-15T15:32:53Z",
-          "type": "feat",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-10-15T15:32:34Z",
-          "type": "feat",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-10-15T15:32:08Z",
-          "type": "feat",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-10-15T11:46:27Z",
-          "type": "fix",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-10-15T11:42:57Z",
-          "type": "fix",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-10-15T11:06:55Z",
-          "type": "fix",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/project-x"
         }
       ]
     },
@@ -399,24 +399,24 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-10-18T06:15:44.940Z",
+      "fetchedAt": "2026-10-20T06:15:57.650Z",
       "data": {
-        "nodes": 77502,
-        "edges": 427648,
+        "nodes": 78283,
+        "edges": 435724,
         "communities": 15700,
         "godNodes": 20,
-        "builtAt": "2026-10-18T05:41:45.403Z"
+        "builtAt": "2026-10-20T04:11:28.587Z"
       }
     },
     "shipped30d": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-10-18T06:15:49.184Z",
+      "fetchedAt": "2026-10-20T06:16:03.014Z",
       "data": {
         "merged": 50,
-        "taskLinked": 49,
-        "costUsd": 190.140783
+        "taskLinked": 50,
+        "costUsd": 191.57418900000002
       }
     }
   }

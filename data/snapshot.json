@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T07:15:50.931Z",
+  "generatedAt": "2026-11-01T07:47:27.482Z",
   "ok": true,
   "failedSources": [],
   "sources": {
@@ -7,32 +7,41 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-10-31T07:15:23.846Z",
+      "fetchedAt": "2026-11-01T07:47:20.217Z",
       "data": {
-        "total": 6382,
-        "activeDays": 291,
-        "daysInWindow": 376
+        "total": 6377,
+        "activeDays": 288,
+        "daysInWindow": 370
       }
     },
     "authored": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-10-31T07:15:25.617Z",
+      "fetchedAt": "2026-11-01T07:47:21.649Z",
       "data": {
         "name": "Nischay B K",
         "joined": "2024-03-20T07:19:22Z",
-        "prsAllTime": 1613,
-        "prsMerged": 1592,
-        "prsThisYear": 1613
+        "prsAllTime": 1614,
+        "prsMerged": 1593,
+        "prsThisYear": 1614
       }
     },
     "ships": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-10-31T07:15:26.160Z",
+      "fetchedAt": "2026-11-01T07:47:22.169Z",
       "data": [
+        {
+          "number": null,
+          "title": null,
+          "url": null,
+          "mergedAt": "2026-11-01T06:33:42Z",
+          "type": "chore",
+          "task": null,
+          "repo": "nbkdoesntknowcoding/quick-quote"
+        },
         {
           "number": null,
           "title": null,
@@ -383,15 +392,6 @@
           "type": "chore",
           "task": null,
           "repo": "nbkdoesntknowcoding/quick-quote"
-        },
-        {
-          "number": null,
-          "title": null,
-          "url": null,
-          "mergedAt": "2026-10-28T18:00:13Z",
-          "type": "feat",
-          "task": null,
-          "repo": "nbkdoesntknowcoding/lok-wa-sync"
         }
       ]
     },
@@ -399,20 +399,20 @@
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-10-31T07:15:26.828Z",
+      "fetchedAt": "2026-11-01T07:47:22.898Z",
       "data": {
-        "nodes": 91351,
-        "edges": 571089,
-        "communities": 15621,
+        "nodes": 92469,
+        "edges": 582747,
+        "communities": 15618,
         "godNodes": 20,
-        "builtAt": "2026-10-31T07:02:08.734Z"
+        "builtAt": "2026-11-01T06:56:29.652Z"
       }
     },
     "shipped30d": {
       "ok": true,
       "stale": false,
       "reason": null,
-      "fetchedAt": "2026-10-31T07:15:50.508Z",
+      "fetchedAt": "2026-11-01T07:47:27.103Z",
       "data": {
         "merged": 50,
         "taskLinked": 49,

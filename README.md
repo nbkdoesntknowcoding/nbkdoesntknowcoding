@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/hero-dark.svg?v=d5d1418dee">
-  <img alt="A live constellation drawn from the knowledge graph behind this profile" src="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/hero-light.svg?v=e27fbb8c9e">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/hero-dark.svg?v=d6bbf6fe08">
+  <img alt="A live constellation drawn from the knowledge graph behind this profile" src="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/hero-light.svg?v=77e89afa8d">
 </picture>
 
 I'm **Nischay** — founder at [The Boring People](https://theboringpeople.in), building
@@ -14,11 +14,11 @@ This page is generated. Every number on it is fetched, dated, and allowed to fai
 ---
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/receipts-dark.svg?v=4ade0e77ac">
-  <img alt="Public contribution count versus pull requests actually merged" src="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/receipts-light.svg?v=8b70322286">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/receipts-dark.svg?v=b177e6f2b5">
+  <img alt="Public contribution count versus pull requests actually merged" src="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/receipts-light.svg?v=9c6f6f234d">
 </picture>
 
-A logged-out visitor sees **6,800 contributions** across **293 active days**.
+A logged-out visitor sees **6,820 contributions** across **293 active days**.
 In the same year I opened **1,761 pull requests**, and **1,734** of them are merged.
 Both numbers are real. They just come from different places, and only one of them is on my profile by
 default. None of this is solo work either — `project-x` has a human collaborator and a very busy
@@ -150,6 +150,6 @@ the reason code, not a confident-looking zero.
 
 ---
 
-<sub>`refreshed 2026-11-06 08:11 UTC · all sources live` · built by [`scripts/collect.mjs`](scripts/collect.mjs) →
+<sub>`refreshed 2026-11-07 07:29 UTC · all sources live` · built by [`scripts/collect.mjs`](scripts/collect.mjs) →
 [`scripts/render.mjs`](scripts/render.mjs), on a cron and on every answered question ·
 [how it works](SETUP.md) · [nischaybk@theboringpeople.in](mailto:nischaybk@theboringpeople.in)</sub>

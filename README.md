@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/hero-dark.svg?v=f339867fae">
-  <img alt="A live constellation drawn from the knowledge graph behind this profile" src="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/hero-light.svg?v=9611dd241b">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/hero-dark.svg?v=a2ee7d4d58">
+  <img alt="A live constellation drawn from the knowledge graph behind this profile" src="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/hero-light.svg?v=bebb776449">
 </picture>
 
 I'm **Nischay** — founder at [The Boring People](https://theboringpeople.in), building
@@ -14,12 +14,12 @@ This page is generated. Every number on it is fetched, dated, and allowed to fai
 ---
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/receipts-dark.svg?v=08a589f2eb">
-  <img alt="Public contribution count versus pull requests actually merged" src="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/receipts-light.svg?v=ac0ea4bc7f">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/receipts-dark.svg?v=05583c4c46">
+  <img alt="Public contribution count versus pull requests actually merged" src="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/receipts-light.svg?v=8a702a8528">
 </picture>
 
-A logged-out visitor sees **6,909 contributions** across **295 active days**.
-In the same year I opened **1,801 pull requests**, and **1,775** of them are merged.
+A logged-out visitor sees **6,993 contributions** across **296 active days**.
+In the same year I opened **1,835 pull requests**, and **1,806** of them are merged.
 Both numbers are real. They just come from different places, and only one of them is on my profile by
 default. None of this is solo work either — `project-x` has a human collaborator and a very busy
 dependabot, so every count here is scoped to PRs I actually authored.
@@ -110,8 +110,8 @@ Self-host the whole thing instead: [**nbkdoesntknowcoding/mnema**](https://githu
 ---
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/shiplog-dark.svg?v=869261e69d">
-  <img alt="The most recent merged pull requests and the tasks they closed" src="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/shiplog-light.svg?v=9ff87e91ab">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/shiplog-dark.svg?v=1d38770652">
+  <img alt="The most recent merged pull requests and the tasks they closed" src="https://raw.githubusercontent.com/nbkdoesntknowcoding/nbkdoesntknowcoding/main/assets/shiplog-light.svg?v=9d6c801502">
 </picture>
 
 The `TASK` column isn't decoration. Branches are named `t-<n>-<slug>`, and that string is the only
@@ -150,6 +150,6 @@ the reason code, not a confident-looking zero.
 
 ---
 
-<sub>`refreshed 2026-11-11 07:57 UTC · all sources live` · built by [`scripts/collect.mjs`](scripts/collect.mjs) →
+<sub>`refreshed 2026-11-12 08:36 UTC · all sources live` · built by [`scripts/collect.mjs`](scripts/collect.mjs) →
 [`scripts/render.mjs`](scripts/render.mjs), on a cron and on every answered question ·
 [how it works](SETUP.md) · [nischaybk@theboringpeople.in](mailto:nischaybk@theboringpeople.in)</sub>
